@@ -66,5 +66,9 @@ public class Settings {
     // static으로 선언된 필드는 어떤 클래스가 처음 로딩이 될때 정적인 메모리 공간에 만들어진다
     // 따라서 해당 클래스를 로딩하지 않는 경우 static 한 인스턴스도 만들어지지 않는다
 
+    protected Object readResolve() {
+        return getInstance();
+    }
+
 
 }
