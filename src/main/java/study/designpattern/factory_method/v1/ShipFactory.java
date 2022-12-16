@@ -1,4 +1,4 @@
-package study.designpattern.factory_method.before;
+package study.designpattern.factory_method.v1;
 
 public class ShipFactory {
 
