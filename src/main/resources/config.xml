@@ -7,4 +7,6 @@
         <constructor-arg value="hello"/>
     </bean>
 
+    <bean id="blueShip" class="study.designpattern.abstract_factory.java.ShipFactory"/>
+
 </beans>
